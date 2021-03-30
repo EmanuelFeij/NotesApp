@@ -9,11 +9,11 @@ import (
 )
 
 func main() {
-	n1 := note.Note{Title: "Emanuel", Body: "SEX"}
+	n1 := note.Note{Title: "Emanuel", Body: "12 pounds"}
 
-	n2 := note.Note{Title: "Eman", Body: "SEXting"}
-	n3 := note.Note{Title: "Emanue", Body: "SEXy"}
-	n4 := note.Note{Title: "Emanuee", Body: "SEXo"}
+	n2 := note.Note{Title: "Eman", Body: "bola"}
+	n3 := note.Note{Title: "Emanue", Body: "bola"}
+	n4 := note.Note{Title: "Emanuee", Body: "ball"}
 
 	var con dbConnector.DBConnector
 
